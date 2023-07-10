@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 
-
+//http://localhost:8082/hotels/getAllHotels
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/hotels")

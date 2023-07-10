@@ -28,6 +28,7 @@ public class Travelor {
     private String email;
     private Date arival;
     private Date departure;
+    private double totalPrice;
 
 
 }
