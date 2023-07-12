@@ -23,12 +23,13 @@ public class Travelor {
     @GeneratedValue(strategy = GenerationType.AUTO)
 
     private Long id;
-    private String tName;
+    private String name;
     private String address;
     private String email;
     private Date arival;
     private Date departure;
     private double totalPrice;
+    private double totalPriceWithTax;
 
 
 }

@@ -25,7 +25,7 @@ public class Hotel {
     private String imgLink;
     private String hotelName;
     private String location;
-    private boolean isPool;
+    private boolean pool;
     private String experienceLevel;
     private double pricePerNight;
   

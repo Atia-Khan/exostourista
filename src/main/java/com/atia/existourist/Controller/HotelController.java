@@ -77,5 +77,10 @@ public Hotel postHotel(@RequestBody Hotel hotels){
     return hotelRepo.save(hotels);
 }
 
+@PostMapping("/postall")
+public List<Hotel> postHotel(@RequestBody List<Hotel> hotels) {
+    return hotelRepo.saveAll(hotels);
+}
+
 
 }

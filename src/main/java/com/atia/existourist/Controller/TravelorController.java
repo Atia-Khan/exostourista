@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController
+//http://localhost:8082/travelor/post
 @CrossOrigin("*")
 @RequestMapping("/travelor")
 public class TravelorController {
